@@ -1,0 +1,87 @@
+body{
+	font-size:12px;
+}
+h1{
+	margin:15px 0px 0px 5px;
+	font-size: 20px;
+}
+.link-div {
+	border: 2px solid #cbcbcb;
+	margin: 10px;
+	min-width: 550px;
+}
+
+.link-div>div {
+	border: 1px solid #cbcbcb;
+}
+
+.link-div>div>span {
+	width: 400px;
+	height:25px;
+	line-height:25px;
+	margin-left:5px;
+	display: inline-block;
+	border-right: 1px solid #cbcbcb;
+}
+
+.link-div>div>a {
+	margin-left: 5px;
+}
+
+.content-div {
+	margin: 0px 10px 10px 10px;
+	min-width: 550px;
+}
+.content-div>div {
+	margin-bottom:15px;
+	border-bottom:2px solid #cbcbcb;
+}
+
+.content-div>div>div{
+	border-bottom: 1px solid #cbcbcb;
+	border-left: 2px solid #cbcbcb;
+	border-right: 2px solid #cbcbcb;
+}
+
+.param-id,.param-id-title{
+	border-right: 1px solid #cbcbcb;
+	width : 200px;
+}
+.param-display,.param-display-title{
+	width : 200px;
+	border-right: 1px solid #cbcbcb;
+}
+.param-comment,.param-comment-title{
+	min-width : 100px;
+	
+}
+.param-id,.param-display,.param-comment,.param-id-title,.param-display-title,.param-comment-title{
+	margin-left:5px;
+	display: inline-block;
+	line-height: 25px;
+}
+.param-id-title,.param-display-title,.param-comment-title{
+	font-weight: bolder;
+	font-size:12px;
+}
+
+.func-content{
+	font-weight: bolder;
+	font-size: 14px;
+	margin-bottom: 5px;
+	line-height:25px;
+	display: inline-block;
+}
+.func-comment{
+	display: block;
+	margin:0 5px 5px 5px;
+	font-size: 10px;
+}
+.param-title{
+	border-top: 3px solid #cbcbcb;
+}
+.param-in,.param-out{
+	font-weight: bolder;
+	margin: 5px;
+	display:block; 
+}
